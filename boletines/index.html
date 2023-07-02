@@ -3,14 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        p{
-            color:red;
-        }
-    </style>
+    <title>Las mejores pizzas de mi ciudad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- link cuando cuento con conexion a internet
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+    <link rel="stylesheet" href="./font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/animate.css/animate.css">
+
 </head>
 <body>
-    <p>Hola mundo</p>
+  <div class="container">
+    <div class="content animated fadeInDown">
+     <header>
+        <h1 class="title">Las mejores pizzas de mi ciudad.</h1>
+     </header>
+     <table class="table">
+        <thead>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Calificación</th>
+            <th>Acciones</th>
+        </thead>
+        <tbody>
+           <tr>
+            <td>1</td>
+            <td>Romife</td>
+            <td>Z. de S. Martin</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i></td>
+            <td>
+                <a href="./restaurantes/Romife.html">Ver más</a>
+            </td>
+           </tr> 
+           <tr>
+            <td>2</td>
+            <td>Cascote</td>
+            <td>Av. Artigas</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+            <td>
+              <a href="./restaurantes/Romife.html">Ver más</a>
+            </td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>Distrito</td>
+            <td>Vachelli</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i></td>
+            <td></td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>Emperador</td>
+            <td>J. M. Luaces</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i></td>
+            <td></td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>Victoria</td>
+            <td>A. Corrientes</td>
+            <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i><i class="fa fa-star-0" aria-hidden="true"></i></td>
+            <td></td>
+           </tr> 
+        </tbody>
+     </table>
+    </div>
+  </div>
+  <!--
+    <script type="text/javascript">
+    console.log("Hola mundo desde JavaScript");
+  </script> 
+-->
+<script src="./javascript/main.js"></script>
 </body>
 </html>
