@@ -40,7 +40,7 @@ link.addEventListener("click", function(evento){
     content.classList.add("animated");
     //setInterval
     setTimeout(function(){
-    location.href= "/";
+    location.href= "/boletines";
     },600);
 
     return false;
